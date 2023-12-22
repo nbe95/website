@@ -10,7 +10,7 @@ description = "Hi, I am a software engineer and an organist. This is my private 
 use = false
 
 [Params.Terminal]
-scheme = "Tender"
+schema = "gruvbox_dark"
 
 # Note: in terminal
 # [userName]@[pcName]:~/$ cd [workDir]
