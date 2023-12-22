@@ -1,4 +1,4 @@
-baseURL = 'https://www.bettgen.de/'
+baseURL = 'https://bettgen.de/'
 languageCode = 'de-de'
 title = 'Niklas Bettgen – Homepage'
 theme = "hugo-theme-shell"
@@ -26,7 +26,7 @@ schema = "gruvbox_dark"
 userName = "niklas"
 pcName = "srv-prod"
 workDir = "website"
-profile = "hello-world.txt"
+profile = "hello_world.txt"
 
 # Note: speed at which text is displayed on the terminal
 # Note: if set to 0, typing animation will be disabled
@@ -50,6 +50,7 @@ contentDelay = 0 # content speed : content in .md file
 # activityDelay = 5 : deprecated
 
 description = """
+
 Hi, I am Niklas Bettgen. Welcome to my website!
 
  _          _   _                        _
@@ -85,6 +86,6 @@ files = [
 	["IoT", "#"],
 	["Shell scripting", "#"],
 	["Industrial automation", "#"],
-	["brainf*ck", "https://en.wikipedia.org/wiki/Brainfuck"],
+	["brainf*ck", "#"],
 	["my Github profile", "https://github.com/nbe95"],
 ]
