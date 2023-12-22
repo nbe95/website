@@ -80,10 +80,11 @@ folderName = "my_skills"
 # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
 files = [
 	["c/c++", "#"],
-	["python", "#"],
-	["docker", "#"],
+	["Python", "#"],
+	["Docker", "#"],
 	["IoT", "#"],
-	["shell_scripting", "#"],
-	["industrial_automation", "#"],
+	["Shell scripting", "#"],
+	["Industrial automation", "#"],
 	["brainf*ck", "https://en.wikipedia.org/wiki/Brainfuck"],
+	["my Github profile", "https://github.com/nbe95"],
 ]
