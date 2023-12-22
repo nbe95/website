@@ -1,12 +1,12 @@
-# My super fancy website
+# My website
 
-Nothing more, nothing less. :tada:
+Nothing more, nothing less.
 
-Made with :heart: and [https://gohugo.io/](Hugo).
+Made with :heart: and [Hugo](https://gohugo.io/).
 
 ## Deployment
 
-The website is automatically deployed each time anything is merged in to `main`.
+The website is automatically deployed each time anything is pushed to `main`.
 
 ## Testing
 
