@@ -4,7 +4,7 @@ title = 'Niklas Bettgen – Homepage'
 theme = "hugo-theme-shell"
 
 [Params]
-description = "Hi, I am a software engineer and an organist. This is my private website – check it out to learn more about me and what I do."
+description = "Hi, I am a Software Engineer and an Organist. This is my private website – check it out to learn more about me and what I do."
 
 [Params.Navbar]
 use = false
@@ -14,66 +14,27 @@ scheme = "Tender"
 userName = "niklas"
 pcName = "srv-prod"
 workDir = "website"
-profile = "hello_world.txt"
+profile = "hello-world.txt"
 
-# Note: speed at which text is displayed on the terminal
-# Note: if set to 0, typing animation will be disabled
-# Note:
-# Note: if you want to enable Mathjax, you need to set it to 0
-# Note: and set "math: true" at front matter in your Markdown file
-ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-stdoutDelay = 1 # stdout speed : [description] , files in Params.Tree
-commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+ps1Delay = 0
+stdoutDelay = 1
+commandDelay = 50
 
-# terminalDelay = 20 : deprecated
-
-# Note: speed at which text is displayed on the activity pages
-# Note: if set to 0, typing animation will be disabled
-# Note:
-# Note: if you want to enable Mathjax, you need to set it to 0
-# Note: and set "math: true" at front matter in your Markdown file
 titleDelay = 3 # title speed : "title" in front matter
 contentDelay = 0 # content speed : content in .md file
 
-# activityDelay = 5 : deprecated
-
-description = """
-
-Hi, I am Niklas Bettgen. Welcome to my website!
-
- _          _   _                        _
-| |__   ___| |_| |_ __ _  ___ _ __    __| | ___
-| '_ \\ / _ \\ __| __/ _` |/ _ \\ '_ \\  / _` |/ _ \\
-| |_) |  __/ |_| || (_| |  __/ | | || (_| |  __/
-|_ __/ \\___|\\__|\\__\\__, |\\___|_| |_(_)__,_|\\___|
-                   |___/
-
-Being a software engineer and an organ player,
-I always try to make my audience feel good.
-
-I like cats, any form of hardware related
-programming and all kinds of nerdy stuff.
-And Vim. <3
-
-Feel free to contact me at
-  ${my_first_name}@${my_last_name}.de
-
-"""
-# Note: If you want to use a Markdown file, you can use the following
-# description = "/description.md"
-# Note: and put the description.md in /content/description.md
+description = "/description.md"
 
 [Params.Tree]
 use = true
-folderName = "my_skills"
-# Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+folderName = "my-skills"
 files = [
 	["c/c++", "#"],
+	["TypeScript", "#"],
 	["Python", "#"],
 	["Docker", "#"],
-	["IoT", "#"],
 	["Shell scripting", "#"],
+	["IoT", "#"],
 	["Industrial automation", "#"],
 	["brainf*ck", "#"],
-	["my Github profile", "https://github.com/nbe95"],
 ]
