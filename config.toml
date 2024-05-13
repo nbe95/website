@@ -10,19 +10,7 @@ description = "Hi, I am a software engineer and an organist. This is my private 
 use = false
 
 [Params.Terminal]
-schema = "gruvbox_dark"
-
-# Note: in terminal
-# [userName]@[pcName]:~/$ cd [workDir]
-# [userName]@[pcName]:~/[workDir]$ cat [profile]
-#
-# [description]
-#
-# Note: if you set Params.Tree > use = true
-# [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
-# ./[folderName]/
-# ...
-# Note: result of the tree command
+scheme = "Tender"
 userName = "niklas"
 pcName = "srv-prod"
 workDir = "website"
