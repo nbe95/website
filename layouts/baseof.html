@@ -3,6 +3,7 @@
     {{- partial "head.html" . -}}
     <style>
         a[href='#'] { text-decoration: none; cursor: default; } /* Make non-clickable links look non-clickable */
+        p:empty { display: none; } /* Hide useless empty paragraph after git log */
     </style>
     <body>
         {{- partial "header.html" . -}}
