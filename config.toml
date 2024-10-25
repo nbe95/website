@@ -11,8 +11,8 @@ use = false
 
 [Params.Terminal]
 scheme = "Tender"
-userName = "niklas"
-pcName = "srv-prod"
+userName = "nik"
+pcName = "srv"
 workDir = "website"
 command = "git log --graph"
 
