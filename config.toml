@@ -33,8 +33,8 @@ files = [
 	["TypeScript", "#"],
 	["Python", "#"],
 	["Docker", "#"],
-	["Shell scripting", "#"],
+	["Shell Scripting", "#"],
 	["IoT", "#"],
-	["Industrial automation", "#"],
-	["brainf*ck", "#"],
+	["Industrial Automation", "#"],
+	["Brainf*ck", "https://en.wikipedia.org/wiki/Brainfuck"],
 ]
