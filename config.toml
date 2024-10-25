@@ -14,7 +14,7 @@ scheme = "Tender"
 userName = "niklas"
 pcName = "srv-prod"
 workDir = "website"
-profile = "hello-world.txt"
+command = "git log --graph"
 
 ps1Delay = 0
 stdoutDelay = 1
