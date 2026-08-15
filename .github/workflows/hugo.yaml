@@ -32,7 +32,7 @@ jobs:
           hugo --gc --minify
 
       - name: Deploy to server using rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@v9
         with:
           switches: -avz --delete
           path: ./public/
